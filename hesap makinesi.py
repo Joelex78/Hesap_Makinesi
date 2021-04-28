@@ -19,6 +19,15 @@ def bölme(x,y):
 başlık = "Hesap Makinesi"
 print(başlık.center(23))
 print("")
+
+sayi1 = int(input("Birinci Sayıyı Giriniz: "))
+
+print("")
+
+sayi2 = int(input("İkinci Sayıyı Giriniz: "))
+
+print("")
+
 print("Ne yapmak istiyorsunuz?")
 print("===========================")
 print("1.Toplama")
@@ -32,20 +41,6 @@ Seçim = int(input("Seçiniz: "))
 
 print("")
 
-if Seçim > 4:
-    print("Geçersiz İşlem")
-    sys.exit(1)
-
-print("")
-
-sayi1 = int(input("Birinci Sayıyı Giriniz: "))
-
-print("")
-
-sayi2 = int(input("İkinci Sayıyı Giriniz: "))
-
-print("")
-
 if Seçim == 1:
     print(sayi1,"+",sayi2,"=", topla(sayi1,sayi2))
 elif Seçim == 2:
@@ -55,7 +50,8 @@ elif Seçim == 3:
 elif Seçim == 4:
     print(sayi1,"/",sayi2,"=", bölme(sayi1,sayi2))
 else:
-    print("Geçersiz Sayı")        
+    print("Geçersiz Sayı")   
+    sys.exit(1)     
 
 print("")
 
