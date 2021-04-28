@@ -1,3 +1,5 @@
+### Second ###
+
 import sys
 
 # Toplama İşlemi

@@ -2,8 +2,7 @@
 Python ile yapılmış basit bir hesap makinesi
 
 ## Nasıl Çalışır?
-Öncelikle hangi işlemi yapmak istediğimizi soruyor uygulama,
-seçtiğiniz işleme göre önce 1. sayı ardından 2. sayıyı girerek ekranda işlem sonucu belirir.
+Öncelikle 1. ve 2. sayıyı giriyorsunuz ardından yapmak istediğiniz işlemi seçiyorsunuz, karşınızda sonuç.
 
 ## Not
 Bu ilk defa yaptığım bir projeyi github'a yükleyişim yanlışım varsa affola.
